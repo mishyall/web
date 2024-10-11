@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+
+}
+body{
+
+}
+#navi{
+    position: fixed;    
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    background-color: black;
+    color: white;   
+    padding: 20px 50px;
+    /* flex-wrap: wrap; */
+}
+#navi a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Garamond', serif;
+}
+.links{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+#brand_name{
+    margin-right: 60%;
+    font-size: 50px;
+    font-family: 'Lucida Handwriting', cursive;
+}
+#navi a:hover{
+    color: gray;
+    font-family: 'Garamond', serif;
+    text-decoration:underline;
+}
+#sign{
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Arial', sans-serif;
+}
+#products{
+    margin-top: 13%;
+    margin-left: 3%;
+    font-family: 'Courier New', monospace;
+}
+#bottom{
+    margin-top: 6%;
+    margin-left: 0%;
+    font-family: 'Courier New', monospace;
+}
+#product1{
+    margin-top: 2%;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+#product1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product1:hover{
+    border-style: solid;
+}
+#product2{
+    margin-left: 32%;
+    margin-top: -406px;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product2 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product2:hover{
+    border-style: solid;
+}
+#product3{
+    margin-left: 64%;
+    margin-top: -406px;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product3 a{
+    text-decoration: none;
+    color: black;
+    fontfamily: 'Courier New', monospace;
+}
+#product3:hover{
+    border-style: solid;
+}
+#product4{
+    margin-left: 0%;
+    margin-top: 3%;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product4 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product4:hover{
+    border-style: solid;
+}
+#product5{
+    margin-left: 32%;
+    margin-top: -406px;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product5 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product5:hover{
+    border-style: solid;
+}
+#product6{
+    margin-left: 64%;
+    margin-top: -406px;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product6 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product6:hover{
+    border-style: solid;
+}
+#product7{
+    margin-top: 2%;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product7 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product7:hover{
+    border-style: solid;
+}
+#product8{
+    margin-left: 32%;
+    margin-top: -406px;
+    border-style:groove;
+    width: 25%;
+    height: 400px;
+    color: black;
+    text-align: center;
+}
+#product8 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+#product8:hover{
+    border-style: solid;
+}
